@@ -11,4 +11,6 @@
 
 @interface WTAppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic, retain) NSString *currentSSID; 
+
 @end

@@ -14,6 +14,9 @@
 		D3B739441556EDCE00C07F7F /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B739431556EDCE00C07F7F /* WTAppDelegate.m */; };
 		D3B739471556EDCF00C07F7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B739451556EDCF00C07F7F /* MainMenu.xib */; };
 		D3B7394E1556F73400C07F7F /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7394D1556F73400C07F7F /* CoreWLAN.framework */; };
+		D3B73955155716FB00C07F7F /* WTDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B73954155716FB00C07F7F /* WTDataModel.m */; };
+		D3EABD6215571975000C8BAF /* NSFileManager+DirectoryLocations.h in Sources */ = {isa = PBXBuildFile; fileRef = D3EABD6015571975000C8BAF /* NSFileManager+DirectoryLocations.h */; };
+		D3EABD6315571975000C8BAF /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EABD6115571975000C8BAF /* NSFileManager+DirectoryLocations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,10 @@
 		D3B739431556EDCE00C07F7F /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
 		D3B739461556EDCF00C07F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D3B7394D1556F73400C07F7F /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		D3B73953155716FB00C07F7F /* WTDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTDataModel.h; sourceTree = "<group>"; };
+		D3B73954155716FB00C07F7F /* WTDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTDataModel.m; sourceTree = "<group>"; };
+		D3EABD6015571975000C8BAF /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = "NSFileManager+DirectoryLocations.h"; path = "Third Party/NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		D3EABD6115571975000C8BAF /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+DirectoryLocations.m"; path = "Third Party/NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D3B739361556EDCE00C07F7F /* WifiTask */,
+				D3EABD5E15571964000C8BAF /* Third Party */,
 				D3B7392F1556EDCE00C07F7F /* Frameworks */,
 				D3B7392D1556EDCE00C07F7F /* Products */,
 			);
@@ -88,6 +96,8 @@
 			children = (
 				D3B739421556EDCE00C07F7F /* WTAppDelegate.h */,
 				D3B739431556EDCE00C07F7F /* WTAppDelegate.m */,
+				D3B73953155716FB00C07F7F /* WTDataModel.h */,
+				D3B73954155716FB00C07F7F /* WTDataModel.m */,
 				D3B739451556EDCF00C07F7F /* MainMenu.xib */,
 				D3B739371556EDCE00C07F7F /* Supporting Files */,
 			);
@@ -104,6 +114,15 @@
 				D3B7393F1556EDCE00C07F7F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3EABD5E15571964000C8BAF /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				D3EABD6015571975000C8BAF /* NSFileManager+DirectoryLocations.h */,
+				D3EABD6115571975000C8BAF /* NSFileManager+DirectoryLocations.m */,
+			);
+			name = "Third Party";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +191,9 @@
 			files = (
 				D3B7393D1556EDCE00C07F7F /* main.m in Sources */,
 				D3B739441556EDCE00C07F7F /* WTAppDelegate.m in Sources */,
+				D3B73955155716FB00C07F7F /* WTDataModel.m in Sources */,
+				D3EABD6215571975000C8BAF /* NSFileManager+DirectoryLocations.h in Sources */,
+				D3EABD6315571975000C8BAF /* NSFileManager+DirectoryLocations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +313,7 @@
 				D3B7394C1556EDCF00C07F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
