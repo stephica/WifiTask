@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3B739311556EDCE00C07F7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B739301556EDCE00C07F7F /* Cocoa.framework */; };
+		D3B7393B1556EDCE00C07F7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B739391556EDCE00C07F7F /* InfoPlist.strings */; };
+		D3B7393D1556EDCE00C07F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7393C1556EDCE00C07F7F /* main.m */; };
+		D3B739411556EDCE00C07F7F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3B7393F1556EDCE00C07F7F /* Credits.rtf */; };
+		D3B739441556EDCE00C07F7F /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B739431556EDCE00C07F7F /* WTAppDelegate.m */; };
+		D3B739471556EDCF00C07F7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B739451556EDCF00C07F7F /* MainMenu.xib */; };
+		D3B7394E1556F73400C07F7F /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7394D1556F73400C07F7F /* CoreWLAN.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3B7392C1556EDCE00C07F7F /* WifiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B739301556EDCE00C07F7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D3B739331556EDCE00C07F7F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D3B739341556EDCE00C07F7F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D3B739351556EDCE00C07F7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3B739381556EDCE00C07F7F /* WifiTask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiTask-Info.plist"; sourceTree = "<group>"; };
+		D3B7393A1556EDCE00C07F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3B7393C1556EDCE00C07F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3B7393E1556EDCE00C07F7F /* WifiTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiTask-Prefix.pch"; sourceTree = "<group>"; };
+		D3B739401556EDCE00C07F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D3B739421556EDCE00C07F7F /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		D3B739431556EDCE00C07F7F /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
+		D3B739461556EDCF00C07F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D3B7394D1556F73400C07F7F /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B739291556EDCE00C07F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7394E1556F73400C07F7F /* CoreWLAN.framework in Frameworks */,
+				D3B739311556EDCE00C07F7F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B739211556EDCE00C07F7F = {
+			isa = PBXGroup;
+			children = (
+				D3B739361556EDCE00C07F7F /* WifiTask */,
+				D3B7392F1556EDCE00C07F7F /* Frameworks */,
+				D3B7392D1556EDCE00C07F7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B7392D1556EDCE00C07F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7392C1556EDCE00C07F7F /* WifiTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B7392F1556EDCE00C07F7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B7394D1556F73400C07F7F /* CoreWLAN.framework */,
+				D3B739301556EDCE00C07F7F /* Cocoa.framework */,
+				D3B739321556EDCE00C07F7F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B739321556EDCE00C07F7F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B739331556EDCE00C07F7F /* AppKit.framework */,
+				D3B739341556EDCE00C07F7F /* CoreData.framework */,
+				D3B739351556EDCE00C07F7F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D3B739361556EDCE00C07F7F /* WifiTask */ = {
+			isa = PBXGroup;
+			children = (
+				D3B739421556EDCE00C07F7F /* WTAppDelegate.h */,
+				D3B739431556EDCE00C07F7F /* WTAppDelegate.m */,
+				D3B739451556EDCF00C07F7F /* MainMenu.xib */,
+				D3B739371556EDCE00C07F7F /* Supporting Files */,
+			);
+			path = WifiTask;
+			sourceTree = "<group>";
+		};
+		D3B739371556EDCE00C07F7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B739381556EDCE00C07F7F /* WifiTask-Info.plist */,
+				D3B739391556EDCE00C07F7F /* InfoPlist.strings */,
+				D3B7393C1556EDCE00C07F7F /* main.m */,
+				D3B7393E1556EDCE00C07F7F /* WifiTask-Prefix.pch */,
+				D3B7393F1556EDCE00C07F7F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B7392B1556EDCE00C07F7F /* WifiTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B7394A1556EDCF00C07F7F /* Build configuration list for PBXNativeTarget "WifiTask" */;
+			buildPhases = (
+				D3B739281556EDCE00C07F7F /* Sources */,
+				D3B739291556EDCE00C07F7F /* Frameworks */,
+				D3B7392A1556EDCE00C07F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiTask;
+			productName = WifiTask;
+			productReference = D3B7392C1556EDCE00C07F7F /* WifiTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B739231556EDCE00C07F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D3B739261556EDCE00C07F7F /* Build configuration list for PBXProject "WifiTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3B739211556EDCE00C07F7F;
+			productRefGroup = D3B7392D1556EDCE00C07F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B7392B1556EDCE00C07F7F /* WifiTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B7392A1556EDCE00C07F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7393B1556EDCE00C07F7F /* InfoPlist.strings in Resources */,
+				D3B739411556EDCE00C07F7F /* Credits.rtf in Resources */,
+				D3B739471556EDCF00C07F7F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B739281556EDCE00C07F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B7393D1556EDCE00C07F7F /* main.m in Sources */,
+				D3B739441556EDCE00C07F7F /* WTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3B739391556EDCE00C07F7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B7393A1556EDCE00C07F7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3B7393F1556EDCE00C07F7F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B739401556EDCE00C07F7F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D3B739451556EDCF00C07F7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B739461556EDCF00C07F7F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B739481556EDCF00C07F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3B739491556EDCF00C07F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3B7394B1556EDCF00C07F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiTask/WifiTask-Prefix.pch";
+				INFOPLIST_FILE = "WifiTask/WifiTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3B7394C1556EDCF00C07F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiTask/WifiTask-Prefix.pch";
+				INFOPLIST_FILE = "WifiTask/WifiTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B739261556EDCE00C07F7F /* Build configuration list for PBXProject "WifiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B739481556EDCF00C07F7F /* Debug */,
+				D3B739491556EDCF00C07F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B7394A1556EDCF00C07F7F /* Build configuration list for PBXNativeTarget "WifiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B7394B1556EDCF00C07F7F /* Debug */,
+				D3B7394C1556EDCF00C07F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B739231556EDCE00C07F7F /* Project object */;
+}
